@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="cruzigrama1historia" version="0.1.3">
+ <settings>
+  <title>Cruzigrama1Historia</title>
+  <revision description="created" date="11/16/22" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Crucigrama Historia" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="Crucigrama Historia" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Bienvenido al Crucigrama</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Excelente !Ejercicio Completado!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <gradient source="0xFF3333" dest="0xFFFFFF" angle="120" />
+    </window>
+   </settings>
+   <textGrid rows="17" columns="22" cellWidth="20.0" cellHeight="25.0" border="true">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="36" />
+     <color background="0xFFFFFF" />
+     <gradient source="0xFF0000" dest="0xFFFFFF" angle="0" />
+    </style>
+    <text>
+     <row>******L**********</row>
+     <row>SISTEMAS*********</row>
+     <row>*N*E**B**********</row>
+     <row>*V*C*SOLUCIONAR**</row>
+     <row>*E*N**R**********</row>
+     <row>*N*O**APOSTAR****</row>
+     <row>*T*L**L**********</row>
+     <row>*O*O*************</row>
+     <row>*S*GUERRAMUNDIAL*</row>
+     <row>**DISEÑOS*****N**</row>
+     <row>***ABSTRACTOS*A**</row>
+     <row>**************L**</row>
+     <row>**H***ELECTRONICA</row>
+     <row>**O***********Z**</row>
+     <row>CONFIDENCIALIDAD*</row>
+     <row>**E***********R**</row>
+     <row>**S**************</row>
+     <row>**T**************</row>
+     <row>**O**************</row>
+     <row>*****************</row>
+     <row>*****************</row>
+     <row>*****************</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="350.0" cellHeight="250.0" border="true" id="acrossClues">
+    <style>
+     <font family="Arial" size="24" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="0" item="1" />
+    <cell id="6" item="3" />
+    <cell id="10" item="2" />
+    <cell id="10" item="1" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="6" item="2" />
+    <cell id="5" item="3" />
+    <cell id="5" item="0" />
+    <cell id="5" item="2">
+     <p>El Ing de Sistemas debe ______ por los programas que beneficien a la sociedad antes de perjudicarla.</p>
+    </cell>
+    <cell id="4" item="3" />
+    <cell id="4" item="0" />
+    <cell id="4" item="2" />
+    <cell id="3" item="3" />
+    <cell id="3" item="0" />
+    <cell id="3" item="2">
+     <p>El perfil ocupacional del Ing de Sistemas es Identificar, estudiar y ________ problemas relacionados a las ciencias de la</p>
+     <p>informática.</p>
+    </cell>
+    <cell id="2" item="3" />
+    <cell id="2" item="0" />
+    <cell id="2" item="2" />
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="20" item="0" />
+    <cell id="19" item="0" />
+    <cell id="18" item="1" />
+    <cell id="18" item="0" />
+    <cell id="17" item="1" />
+    <cell id="17" item="0" />
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="15" item="2" />
+    <cell id="15" item="0" />
+    <cell id="15" item="1" />
+    <cell id="14" item="0">
+     <p>El Ing de Sistemas debe tener el valor de la ___________ para salvaguardar datos, archivos, notas, documentos y otros asuntos que son de índole privada.</p>
+    </cell>
+    <cell id="14" item="0" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="13" item="1" />
+    <cell id="12" item="1">
+     <p>La Ing de Sistemas cuando se vio la necesidad de hallar una nueva forma de simplificar los procesos</p>
+     <p>complejos que conllevan otras áreas, como la _______ o las telecomunicaciones.</p>
+    </cell>
+    <cell id="12" item="0" />
+    <cell id="12" item="1" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="10" item="0">
+     <p>Ingenieria de sistemas genera productos __________</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="9" item="0">
+     <p>Esta ciencia requiere de diversos conocimientos para poder implementar</p>
+     <p>dichos _______ a un sistema</p>
+    </cell>
+    <cell id="9" item="0" />
+    <cell id="7" item="2">
+     <p>Es un campo de la ingeniería que se encarga de implementar u optimizar</p>
+     <p>______ complejos haciendo uso de la tecnología.</p>
+    </cell>
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="6" item="1" />
+    <cell id="6" item="1" />
+    <cell id="8" item="1">
+     <p>La ingeniería de sistemas tuvo sus inicios luego de la segunda _______    ________.</p>
+    </cell>
+    <cell id="8" item="0" />
+    <cell id="8" item="1" />
+    <cell id="2" item="1" />
+    <cell id="2" item="1" />
+    <cell id="2" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" item="0" />
+    <cell id="3" item="1" />
+    <cell id="3" item="1" />
+    <cell id="3" item="1" />
+    <cell id="4" item="1" />
+    <cell id="4" item="1" />
+    <cell id="4" item="1" />
+    <cell id="5" item="1" />
+    <cell id="5" item="1" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0">
+     <p>Es un campo de la ingeniería que se encarga de implementar u optimizar</p>
+     <p>______ complejos haciendo uso de la tecnología.</p>
+    </cell>
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="350.0" cellHeight="250.0" border="true" id="downClues">
+    <style>
+     <font family="Arial" size="24" />
+    </style>
+    <cell id="12" item="5" />
+    <cell id="12" item="4" />
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="18" item="0" />
+    <cell id="8" item="5" />
+    <cell id="8" item="3" />
+    <cell id="8" item="1" />
+    <cell id="8" item="4" />
+    <cell id="8" item="0" />
+    <cell id="15" item="3" />
+    <cell id="15" item="1" />
+    <cell id="15" item="2" />
+    <cell id="15" item="0" />
+    <cell id="14" item="2" />
+    <cell id="14" item="1">
+     <p>El perfil ocupacional del Ing de Sistemas es _________, diseñar y elaborar nuevos sistemas de información.</p>
+    </cell>
+    <cell id="14" item="0" />
+    <cell id="10" item="6" />
+    <cell id="10" item="4" />
+    <cell id="10" item="1" />
+    <cell id="10" item="5" />
+    <cell id="10" item="0" />
+    <cell id="10" item="2" />
+    <cell id="10" item="3" />
+    <cell id="13" item="0" />
+    <cell id="13" item="2" />
+    <cell id="13" item="3" />
+    <cell id="13" item="0" />
+    <cell id="13" item="1" />
+    <cell id="12" item="0" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="12" item="2" />
+    <cell id="12" item="2" />
+    <cell id="12" item="3" />
+    <cell id="11" item="6" />
+    <cell id="11" item="4" />
+    <cell id="11" item="1" />
+    <cell id="11" item="5" />
+    <cell id="11" item="0" />
+    <cell id="11" item="2" />
+    <cell id="11" item="3" />
+    <cell id="9" item="6" />
+    <cell id="9" item="4" />
+    <cell id="9" item="1" />
+    <cell id="9" item="5" />
+    <cell id="9" item="0" />
+    <cell id="9" item="2" />
+    <cell id="9" item="3" />
+    <cell id="8" item="2" />
+    <cell id="8" item="2" />
+    <cell id="7" item="6" />
+    <cell id="7" item="4" />
+    <cell id="7" item="2" />
+    <cell id="7" item="5" />
+    <cell id="7" item="1" />
+    <cell id="7" item="3" />
+    <cell id="7" item="0" />
+    <cell id="0" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="2" />
+    <cell id="1" item="2" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0">
+     <p>Gracias a la ingeniería de sistemas, cada día aparecen nuevos _________</p>
+    </cell>
+    <cell id="6" item="4" />
+    <cell id="6" item="2" />
+    <cell id="6" item="3" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0">
+     <p>Con la llegada de sistemas informáticos al país, hubo un aumento de la demanda _______</p>
+    </cell>
+    <cell id="5" item="4" />
+    <cell id="5" item="3" />
+    <cell id="5" item="1" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" txtAlign="middle,bottom">
+     <p>Ingenieria de sistemas realiza principalmente el uso de __________</p>
+    </cell>
+    <cell id="2" item="2">
+     <p>Una principal cualidad del ingeniero es que debe ser ________, para asi tener siempre su etica en alto.</p>
+    </cell>
+    <cell id="2" item="2" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+
